@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  position: center;
+}
+
+body {
+  background-image: url('buildingtitle.jpeg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.login {
+  text-align: right;
+}
+
+.webname {
+  font-family: 'Style Script';
+  font-size: 50px;
+  color: transparent;
+}
+
+.header {
+    font-style: bold;
+    list-style-type: none;
+    padding: 0px;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.header li {
+  display: inline;
+  font-size: 15px;
+  font-style: bold;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  padding-left: 75px;
+}
+.login {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.header-center {
+  text-align: center;
+}
+
+
+
+.About {
+ font-size: 30px;
+ text-align: center;
+ color: white;
+}
+
+.Blog {
+ font-size: 30px;
+ text-align: center;
+ color: white;
+}
+
+.Contact {
+ font-size: 30px;
+ text-align: center;
+ color: white;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+}
